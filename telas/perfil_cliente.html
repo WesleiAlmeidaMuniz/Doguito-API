@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doguito Petshop | Perfil de cliente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/base/base.css">
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/cadastra_cliente.css">
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/css/componentes/inputs.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/assets/img/doguitoadm.svg" alt="Logo Doguito" class="cabecalho__logo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao">
+                <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+                <li class="cabecalho__link"><a href="#">Produtos</a></li>
+                <li class="cabecalho__link"><a href="../index.html">Clientes </a></li>
+                <li class="cabecalho__link"><a href="#">Pets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Perfil</h1>
+            <form action="#" class="flex flex--coluna" data-form>
+                <div class="input-container">
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" disabled="" required data-nome>
+                    <label class="input-label" for="nome">Nome</label>
+                </div>
+                <div class="input-container">
+                    <input name="email" id="email" class="input" type="text" placeholder="email" disabled="" required data-email>
+                    <label class="input-label" for="email">Email</label>
+                </div>
+                <div class="input-container">
+                    <input name="idade" id="idade" class="input" type="text" placeholder="idade" disabled="" required data-idade>
+                    <label class="input-label" for="age">Idade</label>
+                </div>
+                <div class="input-container">
+                    <input name="num" id="num" class="input" type="text" placeholder="Numero de Telefone" disabled="" required data-num>
+                    <label class="input-label" for="num">Numero de Telefone</label>
+                </div>
+                <div class="input-container">
+                    <input name="andress" id="andress" class="input" type="text" placeholder="Endereço" disabled="" required data-andress>
+                    <label class="input-label" for="andress">Endereço</label>
+                </div>
+                <div class="input-container">
+                    <input name="animals" id="animals" class="input" type="text" placeholder="Animais" disabled="" required data-animais>
+                    <label class="input-label" for="Animals">Possui quais animais</label>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+<script type="module" src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr6dsozxrxfc/b/site/o/admin/controller/perfilCliente-Controller.js"></script>
+</html>
